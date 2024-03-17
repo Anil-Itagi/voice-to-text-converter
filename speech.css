@@ -1,0 +1,90 @@
+#hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/352/385/248/big-hero-6-2014-beymaks-robot-wallpaper-preview.jpg');
+    background-size: cover;
+}
+
+#hero h1 {
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color: #643843;
+}
+
+#hero h1 span {
+    color: white;
+}
+
+textarea {
+    width: 40%;
+    height: 250px;
+    color: white;
+    background-color: #5F374B;
+    font-size: 30px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 1%;
+    resize: none;
+    margin-bottom: 30px;
+    box-shadow: -18 px - 18 px 15 px rgb(222, 206, 206), 5 px 5 px 15 px rgba(206, 181, 181, 0.2);
+}
+
+.row1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+button {
+    color: black;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 35px;
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+button i {
+    width: 16px;
+    margin-right: 10px;
+    align-items: center;
+    color: black;
+}
+
+#hi {
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    width: 100px;
+}
+
+#an {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: black;
+    margin-top: 150px;
+}
+
+#b1,
+#b2 {
+    background-color: purple;
+    color: white;
+}
